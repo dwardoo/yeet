@@ -4,8 +4,8 @@
     <mat-grid-tile
         *ngFor="let friend of friends"
         [colspan]="friend.cols"
-        [rowspan]="friend.rows"
-      {{friend.text}}
+        [rowspan]="friend.rows">
+      <img src="assets/friends/{{friend.text}}.png">
     </mat-grid-tile>
   </mat-grid-list>
 </div>
