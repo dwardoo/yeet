@@ -25,6 +25,6 @@ export class DashboardComponent {
       { name: "JPPrewit", status: "Teaching children to read", about: "I'm a model", messages: [], rows: 1, cols:1},
     ];
 
-    ]
+    
   }
 }
