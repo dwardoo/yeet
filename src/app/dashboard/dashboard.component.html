@@ -5,7 +5,7 @@
         *ngFor="let friend of friends"
         [colspan]="friend.cols"
         [rowspan]="friend.rows">
-      <img src="assets/friends/{{friend.name}}.png" />
+      <img src="assets/friends/{{friend.name}}.png" >
       <mat-grid-tile-footer>
         <h3>{{friend.name}}</h3>
         <span>{{friend.status}}</span>
